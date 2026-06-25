@@ -6,7 +6,7 @@ Este proyecto es una aplicación web interactiva desarrollada en Python utilizan
 ## Estructura del Proyecto
 - `app.py`: Archivo principal que levanta el servidor web y contiene los controladores interactivos (callbacks) y las gráficas.
 - `EDA.ipynb`: Jupyter Notebook con el Análisis Exploratorio de Datos preliminar, limpieza y tratamiento de nulos.
-- `data/`: Carpeta destinada a alojar el archivo de datos masivo (ej. `2025.csv`).
+- `data/`: Carpeta destinada a alojar el archivo de datos masivo (`2025.csv`).
 
 ## Requisitos y Librerías
 Para ejecutar este dashboard, el entorno de Python debe contar con:
@@ -20,6 +20,9 @@ Para ejecutar este dashboard, el entorno de Python debe contar con:
 3. Activa el entorno virtual (recomendado): `.\env\Scripts\activate`
 4. Ejecuta la aplicación: `python app.py`
 5. Abre el navegador web e ingresa a la dirección local: `http://127.0.0.1:8050/`
+
+
+## Link del Dataset: https://noaa-ghcn-pds.s3.amazonaws.com/index.html#csv/by_year/
 
 ## Autores
 - Víctor Sánchez - 20-70-7342
